@@ -70,6 +70,9 @@ public class Main {
                 case CHOISE_11:
                     Uzduotis11 vienuoliktoji = new Uzduotis11();
                     break;
+                case CHOISE_12:
+                    Uzduotis12 dvyliktoji = new Uzduotis12();
+                    break;
             }
         }
     }}
