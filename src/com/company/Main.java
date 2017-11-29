@@ -10,7 +10,15 @@ public class Main {
     public static final int CHOISE_4 = 4;
     public static final int CHOISE_5 = 5;
     public static final int CHOISE_6 = 6;
-    public static final int CHOISE_7 = 7;
+    public static final int CHOISE_8 = 8;
+    public static final int CHOISE_9 = 9;
+    public static final int CHOISE_10 = 10;
+    public static final int CHOISE_11 = 11;
+    public static final int CHOISE_12 = 12;
+    public static final int CHOISE_13 = 13;
+    public static final int CHOISE_14 = 14;
+    public static final int CHOISE_15 = 15;
+    public static final int CHOISE_16 = 16;
 
     public static void main(String[] args) {
         // parodyti vartotojui, kiek yra užduočių
@@ -48,6 +56,9 @@ public class Main {
                     break;
                 case CHOISE_7:
                     Uzduotis07 septintoji = new Uzduotis07();
+                    break;
+                case CHOISE_8:
+                    Uzduotis08 astuntoji=new Uzduotis08();
                     break;
 
             }
