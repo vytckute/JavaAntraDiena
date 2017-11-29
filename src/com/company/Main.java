@@ -45,6 +45,10 @@ public class Main {
                     break;
                 case CHOISE_6:
                     Uzduotis06 sestoji = new Uzduotis06();
+                    break;
+                case CHOISE_7:
+                    Uzduotis07 septintoji = new Uzduotis07();
+                    break;
 
             }
         }
