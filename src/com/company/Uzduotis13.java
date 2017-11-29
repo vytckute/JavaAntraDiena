@@ -11,13 +11,14 @@ public class Uzduotis13 {
         Scanner skaitytuvas = new Scanner(System.in);
         double a = skaitytuvas.nextDouble();
         Skaiciuotuvas sk = new Skaiciuotuvas();
+        System.out.println("Kvadratas "+a+"="+ sk.SkaiciuojaKvadrata(a));
 
     }
-}
+
 
 private class Skaiciuotuvas {
     public double SkaiciuojaKvadrata(double a) {
 
         return Math.pow(a, 2);
     }
-}
+}}

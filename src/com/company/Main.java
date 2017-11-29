@@ -21,6 +21,7 @@ public class Main {
     public static final int CHOISE_15 = 15;
     public static final int CHOISE_16 = 16;
 
+
     public static void main(String[] args) {
         // parodyti vartotojui, kiek yra užduočių
         //paklausti vartotojo kokio užduotį parodyti
@@ -73,6 +74,23 @@ public class Main {
                 case CHOISE_12:
                     Uzduotis12 dvyliktoji = new Uzduotis12();
                     break;
+                case CHOISE_13:
+                    Uzduotis13 tryliktoji = new Uzduotis13();
+                    break;
+                case CHOISE_14:
+                    Uzduotis14 keturioliktoji = new Uzduotis14();
+                    break;
+                case CHOISE_15:
+                    Uzduotis15 penkioliktoji = new Uzduotis15();
+                    System.out.println("Iveskite trikampio aukstine ir pagrinda: ");
+                    double b = skaitytuvas.nextDouble();
+                    double c = skaitytuvas.nextDouble();
+                    System.out.println("Plotas trikampio " + penkioliktoji.SkaiciuojaPlota(b, c));
+                    break;
+                case CHOISE_16:
+                    Uzduotis16 sesioliktoji = new Uzduotis16();
+                    break;
             }
         }
-    }}
+    }
+}
