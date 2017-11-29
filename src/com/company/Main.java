@@ -11,6 +11,7 @@ public class Main {
     public static final int CHOISE_5 = 5;
     public static final int CHOISE_6 = 6;
     public static final int CHOISE_8 = 8;
+    public static final int CHOISE_7 = 7;
     public static final int CHOISE_9 = 9;
     public static final int CHOISE_10 = 10;
     public static final int CHOISE_11 = 11;
@@ -58,10 +59,14 @@ public class Main {
                     Uzduotis07 septintoji = new Uzduotis07();
                     break;
                 case CHOISE_8:
-                    Uzduotis08 astuntoji=new Uzduotis08();
+                    Uzduotis08 astuntoji = new Uzduotis08();
                     break;
-
+                case CHOISE_9:
+                    Uzduotis09 devintoji = new Uzduotis09();
+                    break;
+                case CHOISE_10:
+                    Uzduotis10 desimtoji = new Uzduotis10();
+                    break;
             }
         }
-    }
-}
+    }}
