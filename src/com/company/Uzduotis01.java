@@ -7,7 +7,7 @@ public class Uzduotis01 {
         //pasisveikinti su vartotoju
         //paprasyti ivesti varda
         //atspausdinti 5 kartus
-//git init
+        //git init
         //git add -all
         //git commit -m "Pirmas ikelimas"
         //dvi komandos is github.com
